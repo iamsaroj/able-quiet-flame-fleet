@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Kiln",
+      "hasCanvas": false,
+      "bodyTextLen": 1832,
+      "bodyTextHash": "5ebb43f36fbee197e452a4137dcee186472d53d6a08e3aa79dce2f9930f47d65",
+      "bodyTextPrefix": "Kiln Path Projects Playground 0/24 Begin EIGHT-WEEK FRONTEND WOR",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Kiln",
+      "hasCanvas": false,
+      "bodyTextLen": 1804,
+      "bodyTextHash": "3c7ab22f54a4b90fb1e1e20b4e2b3ffd588a66c23e5d6fa62718855a6515b77f",
+      "bodyTextPrefix": "Kiln Begin EIGHT-WEEK FRONTEND WORKSHOP Stop watching tutorials.",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <MatchImpl routeId=\"/\">\n      <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n        <SafeFragment>\n          <SafeFragment fallback={null}>\n            <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n              <SafeFragment fallback={function fallback}>\n                <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n                  <Lazy>\n                    <Home>\n                      <main>\n                        <section>\n                        <section>\n                        <section className=\"mx-auto ma...\">\n                          <div>\n                          <div className=\"mt-10 h-[3...\">\n                            <SandboxEditor files={{html:\"<h1>...\", ...}} onChange={function bound dispatchSetState} ...>\n                              <div className=\"flex min-h...\">\n                                <div>\n                                <label>\n                                <textarea\n                                  id=\"kiln-editor\"\n                                  spellCheck={false}\n                                  value={\"<h1>Harbor</h1>\\n<p>Supper on the river.</p>\"}\n                                  onChange={function onChange}\n                                  onKeyDown={function onKeyDown}\n                                  className=\"h-48 w-full shrink-0 resize-none overflow-auto bg-transparent p-3 font-mo...\"\n-                                 style={{caret-color:\"transparent\"}}\n                                >\n                                ...\n                        ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
